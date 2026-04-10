@@ -69,18 +69,18 @@ La principal confusión observada ocurre entre las clases STRESS y ANAEROBIC.
 ## Estructura del proyecto
 
 clasificacion-fisiologica-estres-ejercicio/
+
 ├── README.md
+
 ├── .gitignore
+
 ├── requirements.txt
-├── src/
-│   └── pipeline_clasificacion.py
-├── docs/
-│   └── articulo.pdf
-├── data/
-│   └── raw/
-│       └── Wearable_Dataset/
-└── results/
-    └── figures/
+
+├── src/pipeline_clasificacion.py
+
+├── docs/articulo.pdf
+
+├── data/raw/Wearable_Dataset
 
 ## Requisitos
 
