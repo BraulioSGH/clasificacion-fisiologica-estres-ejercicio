@@ -1,7 +1,7 @@
 import os
 import warnings
 warnings.filterwarnings("ignore")
-
+from pathlib import Path
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -14,7 +14,8 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 
 # rutas y configuracion general
 # revisar al volver a cambiar a la lap o a la pc
-ruta_base = r"data/raw/Wearable_Dataset"
+BASE_DIR = Path(__file__).resolve().parents[1]
+ruta_base = str(BASE_DIR / "data" / "raw" / "Wearable_Dataset")
 
 estados = ["STRESS", "AEROBIC", "ANAEROBIC"]
 SEMILLA = 42
