@@ -1,0 +1,1 @@
+Dataset organizado en las clases STRESS, AEROBIC y ANAEROBIC.
